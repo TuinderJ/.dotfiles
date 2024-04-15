@@ -22,5 +22,5 @@ stow --adopt .
 
 Load into TMUX and install the plugins.
 ```
-\<leader\> I
+<leader> I
 ```

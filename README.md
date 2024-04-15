@@ -10,11 +10,11 @@ sudo apt install stow
 CD into your home directory and clone this repository.
 ```
 cd ~
-git clone https://github.com/TuinderJ/dotfiles.git
+git clone https://github.com/TuinderJ/.dotfiles.git
 ```
 
 CD into the dotfiles directory that you just cloned and run the stow command.
 ```
-cd dotfiles
+cd .dotfiles
 stow --adopt .
 ```

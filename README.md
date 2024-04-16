@@ -9,7 +9,7 @@ CD into the dotfiles directory that you just cloned and run the stow command.
 ``` debian
 cd ~ &&\
 sudo apt install stow &&\
-git clone https://github.com/TuinderJ/.dotfiles.git && \
+git clone git@github.com:TuinderJ/.dotfiles.git && \
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm &&\
 cd .dotfiles &&\
 stow --adopt .
@@ -18,7 +18,7 @@ stow --adopt .
 ``` arch 
 cd ~ &&\
 sudo pacman -S stow &&\
-git clone https://github.com/TuinderJ/.dotfiles.git && \
+git clone git@github.com:TuinderJ/.dotfiles.git && \
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm &&\
 cd .dotfiles &&\
 stow --adopt .

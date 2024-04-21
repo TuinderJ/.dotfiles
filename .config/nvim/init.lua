@@ -1,4 +1,5 @@
 vim.g.mapleader = " "
+vim.opt.mouse = ""
 -- lazy.nvim initialization
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
@@ -12,8 +13,6 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
   })
 end
 vim.opt.rtp:prepend(lazypath)
-
-local opts = {}
 
 require("lazy").setup("plugins")
 require("vim-options")

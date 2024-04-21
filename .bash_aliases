@@ -1,2 +1,2 @@
 alias ll='ls -al'
-alias c='clear && neofetch'
+alias c='cd && clear && neofetch'

@@ -153,3 +153,4 @@ fi
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
 clear && fastfetch
+. "$HOME/.cargo/env"
